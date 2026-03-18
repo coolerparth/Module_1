@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  aria:
+    build: .
+    image: aria-resume-engine:3.1.0
+    container_name: aria
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/output:/app/data/output
+    environment:
+      - PYTHONUNBUFFERED=1
+      - ARIA_OUTPUT_DIR=/app/data/output
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: |
+          cd ${{ github.workspace }}
+          python -m pytest tests/ -v --tb=short
+
+      - name: Test imports
+        run: |
+          cd ${{ github.workspace }}
+          python -c "
+          import sys; sys.path.insert(0, 'src')
+          from resume_segmentation.services.pipeline import ARIEPipeline
+          from resume_segmentation.api.app import app
+          print('All imports OK')
+          "
