@@ -1,0 +1,242 @@
+{
+  ".NET": {
+    "aliases": [
+      ".net",
+      "dotnet",
+      ".net core",
+      "asp.net core",
+      "asp.net"
+    ],
+    "category": "BACKEND"
+  },
+  "Amazon Web Services": {
+    "aliases": [
+      "aws",
+      "amazon web services",
+      "amazon cloud"
+    ]
+  },
+  "Apache Airflow": {
+    "aliases": [
+      "airflow",
+      "apache airflow",
+      "airflow dag"
+    ]
+  },
+  "Apache Spark": {
+    "aliases": [
+      "spark",
+      "apache spark",
+      "pyspark",
+      "spark sql"
+    ]
+  },
+  "Large Language Models": {
+    "aliases": [
+      "llm",
+      "llms",
+      "large language model",
+      "large language models"
+    ]
+  },
+  "Generative AI": {
+    "aliases": [
+      "genai",
+      "gen ai",
+      "generative artificial intelligence"
+    ]
+  },
+  "RAG (Retrieval-Augmented Generation)": {
+    "aliases": [
+      "rag",
+      "retrieval augmented generation",
+      "retrieval-augmented generation"
+    ]
+  },
+  "Artificial Intelligence": {
+    "aliases": [
+      "artificial intelligence ai",
+      "ai systems"
+    ]
+  },
+  "Machine Learning": {
+    "aliases": [
+      "machine learning ml",
+      "ml models"
+    ]
+  },
+  "Deep Learning": {
+    "aliases": [
+      "deep learning dl",
+      "deep neural learning"
+    ]
+  },
+  "Natural Language Processing": {
+    "aliases": [
+      "nlp",
+      "natural language processing",
+      "text understanding"
+    ]
+  },
+  "Hugging Face": {
+    "aliases": [
+      "transformers",
+      "hugging face transformers",
+      "hf transformers"
+    ]
+  },
+  "Angular": {
+    "aliases": [
+      "angularjs",
+      "angular.js"
+    ]
+  },
+  "Android": {
+    "aliases": [
+      "android sdk",
+      "android studio"
+    ]
+  },
+  "API": {
+    "aliases": [
+      "application programming interface",
+      "apis"
+    ]
+  },
+  "Arduino": {
+    "aliases": [
+      "arduino uno",
+      "arduino ide"
+    ]
+  },
+  "Airtable": {
+    "aliases": [
+      "air table"
+    ],
+    "category": "TOOLS"
+  },
+  "Bitbucket": {
+    "aliases": [
+      "bit bucket"
+    ],
+    "category": "TOOLS"
+  },
+  "Bootstrap": {
+    "aliases": [
+      "bootstrap 4",
+      "bootstrap 5",
+      "twitter bootstrap"
+    ]
+  },
+  "ESP32": {
+    "aliases": [
+      "esp-32",
+      "esp 32"
+    ]
+  },
+  "ESP8266": {
+    "aliases": [
+      "esp-8266",
+      "esp 8266"
+    ]
+  },
+  "OpenCV": {
+    "aliases": [
+      "opencv",
+      "cv2"
+    ]
+  },
+  "Power BI": {
+    "aliases": [
+      "powerbi",
+      "microsoft power bi"
+    ]
+  },
+  "PyMuPDF": {
+    "aliases": [
+      "pymupdf",
+      "fitz"
+    ],
+    "category": "TOOLS"
+  },
+  "python-pptx": {
+    "aliases": [
+      "python pptx",
+      "pptx python"
+    ],
+    "category": "TOOLS"
+  },
+  "Tableau": {
+    "aliases": [
+      "tableau desktop",
+      "tableau public"
+    ]
+  },
+  "AWS": {
+    "aliases": [
+      "amazon web services",
+      "amazon cloud",
+      "aws cloudformation",
+      "aws codebuild",
+      "aws codecommit",
+      "aws codedeploy",
+      "aws codepipeline",
+      "aws direct connect",
+      "aws elastic beanstalk",
+      "aws elastic load balancing",
+      "aws fargate",
+      "aws opsworks"
+    ]
+  },
+  "Airflow": {
+    "aliases": [
+      "apache airflow",
+      "airflow dag"
+    ]
+  },
+  "Azure": {
+    "aliases": [
+      "microsoft azure",
+      "azure cosmos db",
+      "azure functions",
+      "azure machine learning",
+      "azure storage",
+      "azure websites"
+    ]
+  },
+  "Docker": {
+    "aliases": [
+      "boot2docker",
+      "docker cloud",
+      "docker compose",
+      "docker for aws",
+      "docker machine",
+      "docker swarm"
+    ]
+  },
+  "Django": {
+    "aliases": [
+      "django rest framework"
+    ]
+  },
+  "GCP": {
+    "aliases": [
+      "google cloud vision api",
+      "google kubernetes engine"
+    ]
+  },
+  "MongoDB": {
+    "aliases": [
+      "mongodb atlas",
+      "mongodb hosting",
+      "mongodb stitch"
+    ]
+  },
+  "Redis": {
+    "aliases": [
+      "redis cloud",
+      "redis hosting",
+      "heroku redis"
+    ]
+  }
+}

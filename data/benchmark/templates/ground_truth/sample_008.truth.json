@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "sample_id": "sample_008",
+    "archetype": "project_heavy_engineering",
+    "status": "template",
+    "instructions": [
+      "Fill only evidence-backed fields from the actual resume.",
+      "Keep strings exact where possible.",
+      "Leave optional fields null instead of guessing."
+    ]
+  },
+  "personal_info": {
+    "name": null,
+    "email": null,
+    "phone": null,
+    "location": null
+  },
+  "links": [],
+  "summary": null,
+  "skills": [],
+  "experience": [],
+  "education": [],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "awards": [],
+  "interests": []
+}

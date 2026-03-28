@@ -1,0 +1,15 @@
+{
+  "label_status": "pending",
+  "archetype": "executive_multpage",
+  "categories": [
+    "benchmark_scaffold",
+    "english_only",
+    "executive",
+    "multpage"
+  ],
+  "notes": [
+    "Replace with real sample-specific notes after manual review.",
+    "Set label_status to labeled once the truth file is verified."
+  ],
+  "annotation_status": "todo"
+}

@@ -1,0 +1,2350 @@
+{
+  "dataset_dir": "Resume_(PDF)files",
+  "total_files": 19,
+  "schema_validation": {
+    "total_items": 19,
+    "error_count": 0,
+    "warning_count": 0,
+    "is_valid": true,
+    "issues": []
+  },
+  "averages": {
+    "personal_info": 0.838,
+    "skills": 0.556,
+    "education": 0.619,
+    "experience": 0.785,
+    "projects": 0.612,
+    "overall": 0.682
+  },
+  "failure_buckets": {
+    "skills_recall": 17,
+    "education_matching": 12,
+    "experience_matching": 5,
+    "projects_matching": 9,
+    "contact_info": 7,
+    "missing_experience_section": 2,
+    "missing_education_section": 1
+  },
+  "results": [
+    {
+      "file": "ADITYA RESUME - Aditya S Chauhan.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.968,
+              "heading_count": 5,
+              "core_section_count": 4,
+              "line_count": 47,
+              "url_count": 8,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.191,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 1.008,
+              "heading_count": 5,
+              "core_section_count": 4,
+              "line_count": 51,
+              "url_count": 8,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.216,
+              "duplicate_ratio": 0.02,
+              "contact_signal_count": 2
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.727,
+              "line_count": 51,
+              "block_count": 1,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 8
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.728,
+              "line_count": 47,
+              "block_count": 1,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 8
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 8,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.727,
+        "education": 0.6,
+        "experience": 0.285,
+        "projects": 0.515,
+        "overall": 0.625
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true,
+          "location": true
+        },
+        "skills": {
+          "truth_count": 16,
+          "pred_count": 17,
+          "matches": 12,
+          "precision": 0.706,
+          "recall": 0.75
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 4,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 1,
+          "pred_count": 2,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 3,
+          "pred_count": 4,
+          "matched": 0
+        }
+      },
+      "pred_summary": {
+        "name": "Aditya S Chauhan",
+        "skills": 17,
+        "education": 4,
+        "experience": 2,
+        "projects": 4
+      },
+      "failure_buckets": [
+        "skills_recall",
+        "education_matching",
+        "experience_matching",
+        "projects_matching"
+      ]
+    },
+    {
+      "file": "ARZOO_230121418 RESUME - Arzoo.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.929,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 49,
+              "url_count": 2,
+              "malformed_ratio": 0.102,
+              "short_line_ratio": 0.571,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 4
+            },
+            {
+              "source": "docling",
+              "score": 0.973,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 45,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.333,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 6
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.803,
+              "line_count": 45,
+              "block_count": 2,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 15,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.742,
+              "line_count": 49,
+              "block_count": 2,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 2,
+          "table_skill_count": 15
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.545,
+        "education": 0.079,
+        "experience": 1.0,
+        "projects": 0.333,
+        "overall": 0.591
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true
+        },
+        "skills": {
+          "truth_count": 19,
+          "pred_count": 25,
+          "matches": 12,
+          "precision": 0.48,
+          "recall": 0.632
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 3,
+          "matched": 0
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 3,
+          "pred_count": 1,
+          "matched": 1
+        }
+      },
+      "pred_summary": {
+        "name": "Arzoo",
+        "skills": 25,
+        "education": 3,
+        "experience": 0,
+        "projects": 1
+      },
+      "failure_buckets": [
+        "skills_recall",
+        "education_matching",
+        "projects_matching"
+      ]
+    },
+    {
+      "file": "Dev_resume - Dev Goyal.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.897,
+              "heading_count": 4,
+              "core_section_count": 3,
+              "line_count": 52,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.077,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 0.969,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 51,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.373,
+              "duplicate_ratio": 0.02,
+              "contact_signal_count": 4
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.731,
+              "line_count": 51,
+              "block_count": 2,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.689,
+              "line_count": 52,
+              "block_count": 1,
+              "section_count": 4,
+              "heading_count": 4,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 2,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.718,
+        "education": 0.333,
+        "experience": 1.0,
+        "projects": 0.261,
+        "overall": 0.662
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true
+        },
+        "skills": {
+          "truth_count": 19,
+          "pred_count": 20,
+          "matches": 14,
+          "precision": 0.7,
+          "recall": 0.737
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 2,
+          "matched": 0
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 3,
+          "matched": 1
+        }
+      },
+      "pred_summary": {
+        "name": "Dev Goyal",
+        "skills": 20,
+        "education": 2,
+        "experience": 0,
+        "projects": 3
+      },
+      "failure_buckets": [
+        "skills_recall",
+        "education_matching",
+        "projects_matching"
+      ]
+    },
+    {
+      "file": "DevResume - Dev Agarwal.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.988,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 48,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.104,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 2
+            },
+            {
+              "source": "docling",
+              "score": 0.984,
+              "heading_count": 6,
+              "core_section_count": 3,
+              "line_count": 66,
+              "url_count": 2,
+              "malformed_ratio": 0.015,
+              "short_line_ratio": 0.394,
+              "duplicate_ratio": 0.03,
+              "contact_signal_count": 6
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.784,
+              "line_count": 66,
+              "block_count": 1,
+              "section_count": 6,
+              "heading_count": 6,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.733,
+              "line_count": 48,
+              "block_count": 1,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 2,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.54,
+        "education": 0.873,
+        "experience": 1.0,
+        "projects": 1.0,
+        "overall": 0.883
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true,
+          "location": true
+        },
+        "skills": {
+          "truth_count": 35,
+          "pred_count": 28,
+          "matches": 17,
+          "precision": 0.607,
+          "recall": 0.486
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 3,
+          "matched": 3
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 4,
+          "matched": 4
+        }
+      },
+      "pred_summary": {
+        "name": "Dev Agarwal",
+        "skills": 28,
+        "education": 3,
+        "experience": 0,
+        "projects": 4
+      },
+      "failure_buckets": [
+        "skills_recall"
+      ]
+    },
+    {
+      "file": "Hemanth - Hemanth Perumalla.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.924,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 41,
+              "url_count": 0,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.146,
+              "duplicate_ratio": 0.024,
+              "contact_signal_count": 2
+            },
+            {
+              "source": "docling",
+              "score": 0.903,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 49,
+              "url_count": 0,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.429,
+              "duplicate_ratio": 0.061,
+              "contact_signal_count": 3
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.743,
+              "line_count": 49,
+              "block_count": 6,
+              "section_count": 5,
+              "heading_count": 8,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 0
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.68,
+              "line_count": 41,
+              "block_count": 6,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 0
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 0,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.565,
+        "education": 0.35,
+        "experience": 1.0,
+        "projects": 0.863,
+        "overall": 0.756
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true,
+          "location": true
+        },
+        "skills": {
+          "truth_count": 22,
+          "pred_count": 24,
+          "matches": 13,
+          "precision": 0.542,
+          "recall": 0.591
+        },
+        "education": {
+          "truth_count": 2,
+          "pred_count": 1,
+          "matched": 0
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 2,
+          "pred_count": 2,
+          "matched": 1
+        }
+      },
+      "pred_summary": {
+        "name": "HEMANTH SAI SUBHASH PERUMALLA",
+        "skills": 24,
+        "education": 1,
+        "experience": 0,
+        "projects": 2
+      },
+      "failure_buckets": [
+        "skills_recall",
+        "education_matching"
+      ]
+    },
+    {
+      "file": "IIT_bombay_Resume_template_2021 - Vivek Prajapati.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.809,
+              "heading_count": 3,
+              "core_section_count": 2,
+              "line_count": 44,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.523,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 3
+            },
+            {
+              "source": "docling",
+              "score": 0.88,
+              "heading_count": 3,
+              "core_section_count": 2,
+              "line_count": 48,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.25,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 3
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.691,
+              "line_count": 48,
+              "block_count": 2,
+              "section_count": 3,
+              "heading_count": 3,
+              "page_coverage": 1.0,
+              "table_skill_count": 13,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.592,
+              "line_count": 43,
+              "block_count": 3,
+              "section_count": 3,
+              "heading_count": 3,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 2,
+          "table_skill_count": 13
+        }
+      },
+      "scores": {
+        "personal_info": 0.667,
+        "skills": 0.68,
+        "education": 0.315,
+        "experience": 1.0,
+        "projects": 0.25,
+        "overall": 0.582
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "location": false
+        },
+        "skills": {
+          "truth_count": 23,
+          "pred_count": 27,
+          "matches": 17,
+          "precision": 0.63,
+          "recall": 0.739
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 1,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 2,
+          "matched": 1
+        }
+      },
+      "pred_summary": {
+        "name": "Vivek Prajapati",
+        "skills": 27,
+        "education": 1,
+        "experience": 0,
+        "projects": 2
+      },
+      "failure_buckets": [
+        "contact_info",
+        "skills_recall",
+        "education_matching",
+        "projects_matching"
+      ]
+    },
+    {
+      "file": "Manav_Sharma_80 - Manav Sharma.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.972,
+              "heading_count": 5,
+              "core_section_count": 4,
+              "line_count": 48,
+              "url_count": 5,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.146,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 1.006,
+              "heading_count": 5,
+              "core_section_count": 4,
+              "line_count": 50,
+              "url_count": 5,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.24,
+              "duplicate_ratio": 0.02,
+              "contact_signal_count": 2
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.775,
+              "line_count": 50,
+              "block_count": 3,
+              "section_count": 5,
+              "heading_count": 8,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 5
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.741,
+              "line_count": 48,
+              "block_count": 3,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 5
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 5,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.651,
+        "education": 0.928,
+        "experience": 0.0,
+        "projects": 0.222,
+        "overall": 0.56
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true,
+          "location": true
+        },
+        "skills": {
+          "truth_count": 19,
+          "pred_count": 24,
+          "matches": 14,
+          "precision": 0.583,
+          "recall": 0.737
+        },
+        "education": {
+          "truth_count": 1,
+          "pred_count": 1,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 1,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 3,
+          "pred_count": 3,
+          "matched": 0
+        }
+      },
+      "pred_summary": {
+        "name": "Manav Sharma",
+        "skills": 24,
+        "education": 1,
+        "experience": 0,
+        "projects": 3
+      },
+      "failure_buckets": [
+        "skills_recall",
+        "experience_matching",
+        "projects_matching",
+        "missing_experience_section"
+      ]
+    },
+    {
+      "file": "My_Resume - ABHINAY BHUVANESH.pdf",
+      "success": false,
+      "error": "Extraction failed: No text extractor succeeded for this PDF.",
+      "extractor_report": null,
+      "scores": {
+        "personal_info": 0.0,
+        "skills": 0.0,
+        "education": 0.0,
+        "experience": 0.0,
+        "projects": 0.0,
+        "overall": 0.0
+      },
+      "details": {
+        "personal_info": {
+          "name": false,
+          "email": false,
+          "phone": false,
+          "location": false
+        },
+        "skills": {
+          "truth_count": 18,
+          "pred_count": 0,
+          "matches": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "education": {
+          "truth_count": 2,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "experience": {
+          "truth_count": 4,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 0,
+          "matched": 0
+        }
+      },
+      "pred_summary": {
+        "name": null,
+        "skills": 0,
+        "education": 0,
+        "experience": 0,
+        "projects": 0
+      },
+      "failure_buckets": [
+        "contact_info",
+        "skills_recall",
+        "education_matching",
+        "experience_matching",
+        "projects_matching",
+        "missing_experience_section",
+        "missing_education_section"
+      ]
+    },
+    {
+      "file": "NainaJoshi (1) - Naina Joshi.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.911,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 45,
+              "url_count": 6,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.156,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 0.886,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 46,
+              "url_count": 6,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.174,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 0
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.824,
+              "line_count": 46,
+              "block_count": 6,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 7,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 6
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.739,
+              "line_count": 45,
+              "block_count": 6,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 6
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 6,
+          "table_skill_count": 7
+        }
+      },
+      "scores": {
+        "personal_info": 0.667,
+        "skills": 0.651,
+        "education": 0.611,
+        "experience": 1.0,
+        "projects": 1.0,
+        "overall": 0.786
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": false,
+          "phone": true
+        },
+        "skills": {
+          "truth_count": 18,
+          "pred_count": 25,
+          "matches": 14,
+          "precision": 0.56,
+          "recall": 0.778
+        },
+        "education": {
+          "truth_count": 2,
+          "pred_count": 2,
+          "matched": 0
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 5,
+          "matched": 4
+        }
+      },
+      "pred_summary": {
+        "name": "NAINA JOSHI",
+        "skills": 25,
+        "education": 2,
+        "experience": 0,
+        "projects": 5
+      },
+      "failure_buckets": [
+        "contact_info",
+        "skills_recall",
+        "education_matching"
+      ]
+    },
+    {
+      "file": "Nandini_Aggarwal_Resume_February - Nandini Aggarwal.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.868,
+              "heading_count": 3,
+              "core_section_count": 3,
+              "line_count": 52,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.192,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 0.888,
+              "heading_count": 4,
+              "core_section_count": 3,
+              "line_count": 57,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.298,
+              "duplicate_ratio": 0.035,
+              "contact_signal_count": 1
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.707,
+              "line_count": 57,
+              "block_count": 1,
+              "section_count": 4,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.626,
+              "line_count": 52,
+              "block_count": 1,
+              "section_count": 3,
+              "heading_count": 3,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 2,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.074,
+        "education": 0.744,
+        "experience": 1.0,
+        "projects": 0.0,
+        "overall": 0.564
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true
+        },
+        "skills": {
+          "truth_count": 24,
+          "pred_count": 3,
+          "matches": 1,
+          "precision": 0.333,
+          "recall": 0.042
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 3,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 3,
+          "matched": 0
+        }
+      },
+      "pred_summary": {
+        "name": "Nandini Aggarwal",
+        "skills": 3,
+        "education": 3,
+        "experience": 0,
+        "projects": 3
+      },
+      "failure_buckets": [
+        "skills_recall",
+        "education_matching",
+        "projects_matching"
+      ]
+    },
+    {
+      "file": "original Devresume1 - Dev Agarwal.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.988,
+              "heading_count": 5,
+              "core_section_count": 3,
+              "line_count": 48,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.104,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 2
+            },
+            {
+              "source": "docling",
+              "score": 0.984,
+              "heading_count": 6,
+              "core_section_count": 3,
+              "line_count": 66,
+              "url_count": 2,
+              "malformed_ratio": 0.015,
+              "short_line_ratio": 0.394,
+              "duplicate_ratio": 0.03,
+              "contact_signal_count": 6
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.784,
+              "line_count": 66,
+              "block_count": 1,
+              "section_count": 6,
+              "heading_count": 6,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.733,
+              "line_count": 48,
+              "block_count": 1,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 2,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.54,
+        "education": 0.873,
+        "experience": 1.0,
+        "projects": 1.0,
+        "overall": 0.883
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true,
+          "location": true
+        },
+        "skills": {
+          "truth_count": 35,
+          "pred_count": 28,
+          "matches": 17,
+          "precision": 0.607,
+          "recall": 0.486
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 3,
+          "matched": 3
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 4,
+          "matched": 4
+        }
+      },
+      "pred_summary": {
+        "name": "Dev Agarwal",
+        "skills": 28,
+        "education": 3,
+        "experience": 0,
+        "projects": 4
+      },
+      "failure_buckets": [
+        "skills_recall"
+      ]
+    },
+    {
+      "file": "Parth_Manhas_Resume (1) - Human.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.948,
+              "heading_count": 3,
+              "core_section_count": 3,
+              "line_count": 37,
+              "url_count": 3,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.108,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 2
+            },
+            {
+              "source": "docling",
+              "score": 0.94,
+              "heading_count": 3,
+              "core_section_count": 3,
+              "line_count": 47,
+              "url_count": 3,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.255,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 3
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.613,
+              "line_count": 47,
+              "block_count": 5,
+              "section_count": 3,
+              "heading_count": 4,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 3
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.572,
+              "line_count": 37,
+              "block_count": 5,
+              "section_count": 3,
+              "heading_count": 3,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 3
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 3,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.737,
+        "education": 0.696,
+        "experience": 1.0,
+        "projects": 0.762,
+        "overall": 0.839
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true,
+          "location": true
+        },
+        "skills": {
+          "truth_count": 8,
+          "pred_count": 11,
+          "matches": 7,
+          "precision": 0.636,
+          "recall": 0.875
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 3,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 3,
+          "pred_count": 6,
+          "matched": 1
+        }
+      },
+      "pred_summary": {
+        "name": "PARTH MANHAS",
+        "skills": 11,
+        "education": 3,
+        "experience": 0,
+        "projects": 6
+      },
+      "failure_buckets": [
+        "skills_recall",
+        "education_matching"
+      ]
+    },
+    {
+      "file": "PratikResume - Pratik Kumar Sharma.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 1.033,
+              "heading_count": 6,
+              "core_section_count": 3,
+              "line_count": 46,
+              "url_count": 5,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.196,
+              "duplicate_ratio": 0.022,
+              "contact_signal_count": 4
+            },
+            {
+              "source": "docling",
+              "score": 0.926,
+              "heading_count": 6,
+              "core_section_count": 3,
+              "line_count": 44,
+              "url_count": 5,
+              "malformed_ratio": 0.023,
+              "short_line_ratio": 0.273,
+              "duplicate_ratio": 0.023,
+              "contact_signal_count": 1
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.836,
+              "line_count": 44,
+              "block_count": 4,
+              "section_count": 6,
+              "heading_count": 7,
+              "page_coverage": 1.0,
+              "table_skill_count": 25,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 5
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.734,
+              "line_count": 45,
+              "block_count": 1,
+              "section_count": 6,
+              "heading_count": 6,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 5
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 5,
+          "table_skill_count": 25
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.533,
+        "education": 0.2,
+        "experience": 1.0,
+        "projects": 1.0,
+        "overall": 0.747
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true
+        },
+        "skills": {
+          "truth_count": 13,
+          "pred_count": 17,
+          "matches": 8,
+          "precision": 0.471,
+          "recall": 0.615
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 3,
+          "matched": 0
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 3,
+          "pred_count": 5,
+          "matched": 3
+        }
+      },
+      "pred_summary": {
+        "name": "Pratik Kumar Sharma",
+        "skills": 17,
+        "education": 3,
+        "experience": 0,
+        "projects": 5
+      },
+      "failure_buckets": [
+        "skills_recall",
+        "education_matching"
+      ]
+    },
+    {
+      "file": "Resume - Sarthak Aggarwal.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.884,
+              "heading_count": 4,
+              "core_section_count": 4,
+              "line_count": 35,
+              "url_count": 0,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.229,
+              "duplicate_ratio": 0.029,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 0.796,
+              "heading_count": 4,
+              "core_section_count": 4,
+              "line_count": 14,
+              "url_count": 0,
+              "malformed_ratio": 0.071,
+              "short_line_ratio": 0.5,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 2
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.567,
+              "line_count": 14,
+              "block_count": 5,
+              "section_count": 4,
+              "heading_count": 4,
+              "page_coverage": 1.0,
+              "table_skill_count": 12,
+              "layouts": [
+                "single_column",
+                "single_column"
+              ],
+              "url_count": 0
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.589,
+              "line_count": 35,
+              "block_count": 6,
+              "section_count": 4,
+              "heading_count": 4,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column",
+                "single_column"
+              ],
+              "url_count": 0
+            }
+          ],
+          "selected_layouts": [
+            "single_column",
+            "single_column"
+          ],
+          "url_count": 0,
+          "table_skill_count": 12
+        }
+      },
+      "scores": {
+        "personal_info": 0.667,
+        "skills": 0.37,
+        "education": 0.667,
+        "experience": 1.0,
+        "projects": 1.0,
+        "overall": 0.741
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": false
+        },
+        "skills": {
+          "truth_count": 10,
+          "pred_count": 17,
+          "matches": 5,
+          "precision": 0.294,
+          "recall": 0.5
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 2,
+          "matched": 2
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 2,
+          "pred_count": 2,
+          "matched": 2
+        }
+      },
+      "pred_summary": {
+        "name": "sarthak aggarwal",
+        "skills": 17,
+        "education": 2,
+        "experience": 0,
+        "projects": 2
+      },
+      "failure_buckets": [
+        "contact_info",
+        "skills_recall",
+        "education_matching"
+      ]
+    },
+    {
+      "file": "resume (6) - Vanshika Agarwal.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.966,
+              "heading_count": 5,
+              "core_section_count": 4,
+              "line_count": 47,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.213,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 0.955,
+              "heading_count": 6,
+              "core_section_count": 4,
+              "line_count": 53,
+              "url_count": 2,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.302,
+              "duplicate_ratio": 0.019,
+              "contact_signal_count": 0
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.766,
+              "line_count": 53,
+              "block_count": 1,
+              "section_count": 6,
+              "heading_count": 7,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.743,
+              "line_count": 47,
+              "block_count": 1,
+              "section_count": 5,
+              "heading_count": 6,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 2
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 2,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.6,
+        "education": 0.963,
+        "experience": 0.9,
+        "projects": 0.902,
+        "overall": 0.873
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true
+        },
+        "skills": {
+          "truth_count": 31,
+          "pred_count": 19,
+          "matches": 15,
+          "precision": 0.789,
+          "recall": 0.484
+        },
+        "education": {
+          "truth_count": 3,
+          "pred_count": 6,
+          "matched": 3
+        },
+        "experience": {
+          "truth_count": 1,
+          "pred_count": 1,
+          "matched": 1
+        },
+        "projects": {
+          "truth_count": 3,
+          "pred_count": 3,
+          "matched": 3
+        }
+      },
+      "pred_summary": {
+        "name": "VANSHIKA AGARWAL",
+        "skills": 19,
+        "education": 6,
+        "experience": 1,
+        "projects": 3
+      },
+      "failure_buckets": [
+        "skills_recall"
+      ]
+    },
+    {
+      "file": "Rohan_Resume(Overleaf-3) - Rohan Kumar.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.961,
+              "heading_count": 5,
+              "core_section_count": 4,
+              "line_count": 43,
+              "url_count": 6,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.256,
+              "duplicate_ratio": 0.047,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 1.026,
+              "heading_count": 5,
+              "core_section_count": 4,
+              "line_count": 54,
+              "url_count": 6,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.37,
+              "duplicate_ratio": 0.093,
+              "contact_signal_count": 5
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.745,
+              "line_count": 54,
+              "block_count": 2,
+              "section_count": 5,
+              "heading_count": 5,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 6
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.725,
+              "line_count": 43,
+              "block_count": 1,
+              "section_count": 5,
+              "heading_count": 6,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 6
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 6,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 0.75,
+        "skills": 0.474,
+        "education": 1.0,
+        "experience": 0.451,
+        "projects": 0.0,
+        "overall": 0.535
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": false,
+          "location": true
+        },
+        "skills": {
+          "truth_count": 18,
+          "pred_count": 20,
+          "matches": 9,
+          "precision": 0.45,
+          "recall": 0.5
+        },
+        "education": {
+          "truth_count": 1,
+          "pred_count": 2,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 1,
+          "pred_count": 1,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 2,
+          "pred_count": 1,
+          "matched": 0
+        }
+      },
+      "pred_summary": {
+        "name": "Rohan Kumar",
+        "skills": 20,
+        "education": 2,
+        "experience": 1,
+        "projects": 1
+      },
+      "failure_buckets": [
+        "contact_info",
+        "skills_recall",
+        "experience_matching",
+        "projects_matching"
+      ]
+    },
+    {
+      "file": "Saket-Kumar-1 - Saket Kumar.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "docling",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.991,
+              "heading_count": 6,
+              "core_section_count": 3,
+              "line_count": 69,
+              "url_count": 2,
+              "malformed_ratio": 0.043,
+              "short_line_ratio": 0.217,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 2
+            },
+            {
+              "source": "docling",
+              "score": 0.996,
+              "heading_count": 6,
+              "core_section_count": 3,
+              "line_count": 65,
+              "url_count": 2,
+              "malformed_ratio": 0.015,
+              "short_line_ratio": 0.246,
+              "duplicate_ratio": 0.015,
+              "contact_signal_count": 3
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.816,
+              "line_count": 65,
+              "block_count": 9,
+              "section_count": 6,
+              "heading_count": 6,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column",
+                "single_column",
+                "single_column"
+              ],
+              "url_count": 2
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.848,
+              "line_count": 69,
+              "block_count": 12,
+              "section_count": 6,
+              "heading_count": 6,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column",
+                "single_column",
+                "single_column"
+              ],
+              "url_count": 2
+            }
+          ],
+          "selected_layouts": [
+            "single_column",
+            "single_column",
+            "single_column"
+          ],
+          "url_count": 2,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 1.0,
+        "skills": 0.759,
+        "education": 0.677,
+        "experience": 1.0,
+        "projects": 1.0,
+        "overall": 0.887
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": true,
+          "location": true
+        },
+        "skills": {
+          "truth_count": 12,
+          "pred_count": 17,
+          "matches": 11,
+          "precision": 0.647,
+          "recall": 0.917
+        },
+        "education": {
+          "truth_count": 2,
+          "pred_count": 3,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        }
+      },
+      "pred_summary": {
+        "name": "Saket Kumar",
+        "skills": 17,
+        "education": 3,
+        "experience": 0,
+        "projects": 0
+      },
+      "failure_buckets": [
+        "education_matching"
+      ]
+    },
+    {
+      "file": "Shivankar_Kumar_IIT_Roorkee_IT_Internship_Final_Resume - Shivankar gautam Gautam.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.79,
+              "heading_count": 4,
+              "core_section_count": 4,
+              "line_count": 26,
+              "url_count": 0,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.308,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 1
+            },
+            {
+              "source": "docling",
+              "score": 0.745,
+              "heading_count": 4,
+              "core_section_count": 4,
+              "line_count": 18,
+              "url_count": 0,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.389,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 1
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.478,
+              "line_count": 18,
+              "block_count": 3,
+              "section_count": 4,
+              "heading_count": 4,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 0
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.551,
+              "line_count": 26,
+              "block_count": 7,
+              "section_count": 4,
+              "heading_count": 4,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 0
+            }
+          ],
+          "selected_layouts": [
+            "single_column"
+          ],
+          "url_count": 0,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 0.667,
+        "skills": 0.947,
+        "education": 0.885,
+        "experience": 1.0,
+        "projects": 0.525,
+        "overall": 0.805
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": false
+        },
+        "skills": {
+          "truth_count": 9,
+          "pred_count": 10,
+          "matches": 9,
+          "precision": 0.9,
+          "recall": 1.0
+        },
+        "education": {
+          "truth_count": 1,
+          "pred_count": 1,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 0,
+          "pred_count": 0,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 5,
+          "matched": 2
+        }
+      },
+      "pred_summary": {
+        "name": "SHIVANKAR KUMAR",
+        "skills": 10,
+        "education": 1,
+        "experience": 0,
+        "projects": 5
+      },
+      "failure_buckets": [
+        "contact_info",
+        "projects_matching"
+      ]
+    },
+    {
+      "file": "Vaishnavi_Khandelwal_2025 (3)_compressed (1) - Vaishnavi Khandelwal.pdf",
+      "success": true,
+      "error": null,
+      "extractor_report": {
+        "text": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "pdfplumber",
+              "score": 0.943,
+              "heading_count": 4,
+              "core_section_count": 3,
+              "line_count": 66,
+              "url_count": 6,
+              "malformed_ratio": 0.03,
+              "short_line_ratio": 0.348,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 2
+            },
+            {
+              "source": "docling",
+              "score": 0.752,
+              "heading_count": 1,
+              "core_section_count": 1,
+              "line_count": 57,
+              "url_count": 6,
+              "malformed_ratio": 0.0,
+              "short_line_ratio": 0.228,
+              "duplicate_ratio": 0.0,
+              "contact_signal_count": 4
+            }
+          ]
+        },
+        "geometry": {
+          "best_source": "pdfplumber",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "source": "docling",
+              "score": 0.503,
+              "line_count": 57,
+              "block_count": 1,
+              "section_count": 1,
+              "heading_count": 1,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "single_column"
+              ],
+              "url_count": 6
+            },
+            {
+              "source": "pdfplumber",
+              "score": 0.95,
+              "line_count": 74,
+              "block_count": 10,
+              "section_count": 7,
+              "heading_count": 8,
+              "page_coverage": 1.0,
+              "table_skill_count": 0,
+              "layouts": [
+                "two_column"
+              ],
+              "url_count": 6
+            }
+          ],
+          "selected_layouts": [
+            "two_column"
+          ],
+          "url_count": 6,
+          "table_skill_count": 0
+        }
+      },
+      "scores": {
+        "personal_info": 0.5,
+        "skills": 0.444,
+        "education": 0.962,
+        "experience": 0.273,
+        "projects": 1.0,
+        "overall": 0.636
+      },
+      "details": {
+        "personal_info": {
+          "name": true,
+          "email": true,
+          "phone": false,
+          "location": false
+        },
+        "skills": {
+          "truth_count": 14,
+          "pred_count": 31,
+          "matches": 10,
+          "precision": 0.323,
+          "recall": 0.714
+        },
+        "education": {
+          "truth_count": 1,
+          "pred_count": 1,
+          "matched": 1
+        },
+        "experience": {
+          "truth_count": 2,
+          "pred_count": 3,
+          "matched": 0
+        },
+        "projects": {
+          "truth_count": 4,
+          "pred_count": 8,
+          "matched": 4
+        }
+      },
+      "pred_summary": {
+        "name": "Vaishnavi Khandelwal",
+        "skills": 31,
+        "education": 1,
+        "experience": 3,
+        "projects": 8
+      },
+      "failure_buckets": [
+        "contact_info",
+        "skills_recall",
+        "experience_matching"
+      ]
+    }
+  ]
+}

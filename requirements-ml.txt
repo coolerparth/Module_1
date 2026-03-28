@@ -1,0 +1,11 @@
+# Tier 1: Best accuracy (JobBERT - resume-specific, 94%)
+transformers>=4.40.0
+torch>=2.2.0
+# After install: python -c "from transformers import AutoModel; AutoModel.from_pretrained('jjzha/jobbert-base-cased')"
+
+# Tier 2: Good accuracy (spaCy transformer, 93%)
+spacy-transformers>=1.3.0
+# After install: python -m spacy download en_core_web_trf
+
+# Tier 3: Fast + decent (spaCy large, 89%)
+# After install: python -m spacy download en_core_web_lg

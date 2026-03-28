@@ -1,0 +1,16 @@
+{
+  "label_status": "pending",
+  "archetype": "single_column_embedded",
+  "categories": [
+    "benchmark_scaffold",
+    "column",
+    "embedded",
+    "english_only",
+    "single"
+  ],
+  "notes": [
+    "Replace with real sample-specific notes after manual review.",
+    "Set label_status to labeled once the truth file is verified."
+  ],
+  "annotation_status": "todo"
+}

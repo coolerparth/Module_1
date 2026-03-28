@@ -1,0 +1,81 @@
+{
+  "technologies": {
+    "Python": {
+      "aliases": ["python", "py"]
+    },
+    "React": {
+      "aliases": ["react", "reactjs", "react.js"]
+    },
+    "Node.js": {
+      "aliases": ["node", "nodejs", "node.js"]
+    },
+    "Streamlit": {
+      "aliases": ["streamlit"]
+    },
+    "LangChain": {
+      "aliases": ["langchain", "lang chain"]
+    },
+    "Large Language Models": {
+      "aliases": ["llm", "llms", "large language model", "large language models"]
+    },
+    "RAG (Retrieval-Augmented Generation)": {
+      "aliases": ["rag", "retrieval augmented generation", "retrieval-augmented generation", "rag pipeline", "rag pipelines"]
+    },
+    "Vector Databases": {
+      "aliases": ["vector database", "vector databases"]
+    },
+    "Natural Language Processing": {
+      "aliases": ["nlp", "natural language processing"]
+    },
+    "Pandas": {
+      "aliases": ["pandas"]
+    },
+    "scikit-learn": {
+      "aliases": ["scikit-learn", "scikit learn", "sklearn"]
+    },
+    "PyMuPDF": {
+      "aliases": ["pymupdf", "py mupdf"]
+    },
+    "Pillow": {
+      "aliases": ["pillow"]
+    },
+    "python-pptx": {
+      "aliases": ["python-pptx"]
+    },
+    "Arduino": {
+      "aliases": ["arduino"]
+    },
+    "Raspberry Pi": {
+      "aliases": ["raspberry pi"]
+    },
+    "ESP32": {
+      "aliases": ["esp32", "esp 32"]
+    },
+    "ESP8266": {
+      "aliases": ["esp8266", "esp 8266"]
+    },
+    "MQTT": {
+      "aliases": ["mqtt"]
+    },
+    "HTTP": {
+      "aliases": ["http"]
+    }
+  },
+  "header_markers": [
+    "tech stack",
+    "built with",
+    "tools",
+    "frameworks",
+    "using",
+    "developed with"
+  ],
+  "url_labels": [
+    "live",
+    "demo",
+    "github",
+    "repo",
+    "link",
+    "source",
+    "hosted at"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "label_status": "pending",
+  "archetype": "project_heavy_engineering",
+  "categories": [
+    "benchmark_scaffold",
+    "engineering",
+    "english_only",
+    "heavy",
+    "project"
+  ],
+  "notes": [
+    "Replace with real sample-specific notes after manual review.",
+    "Set label_status to labeled once the truth file is verified."
+  ],
+  "annotation_status": "todo"
+}

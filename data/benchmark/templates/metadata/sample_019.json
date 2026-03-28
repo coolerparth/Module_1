@@ -1,0 +1,17 @@
+{
+  "label_status": "pending",
+  "archetype": "two_column_design_sidebar",
+  "categories": [
+    "benchmark_scaffold",
+    "column",
+    "design",
+    "english_only",
+    "sidebar",
+    "two"
+  ],
+  "notes": [
+    "Replace with real sample-specific notes after manual review.",
+    "Set label_status to labeled once the truth file is verified."
+  ],
+  "annotation_status": "todo"
+}

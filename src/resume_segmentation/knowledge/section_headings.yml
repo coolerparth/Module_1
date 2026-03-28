@@ -1,0 +1,111 @@
+{
+  "header": [
+    "contact",
+    "contact information",
+    "contact details",
+    "personal",
+    "personal details",
+    "personal information",
+    "general information",
+    "profile details",
+    "candidate details"
+  ],
+  "summary": [
+    "about me",
+    "background",
+    "career highlights",
+    "career objective",
+    "objective",
+    "overview",
+    "personal statement",
+    "candidate profile",
+    "executive profile",
+    "professional snapshot",
+    "profile"
+  ],
+  "skills": [
+    "core competencies",
+    "competencies",
+    "technical expertise",
+    "tools and technologies",
+    "programming languages",
+    "technical toolkit",
+    "skills inventory",
+    "technology stack",
+    "technical skills",
+    "technicalskills"
+  ],
+  "experience": [
+    "experience",
+    "work experience",
+    "professional experience",
+    "employment history",
+    "work history",
+    "career history",
+    "professional background",
+    "internship experience",
+    "research experience",
+    "employment profile",
+    "industry exposure",
+    "work engagements"
+  ],
+  "education": [
+    "education",
+    "academic background",
+    "academic qualifications",
+    "qualification",
+    "qualifications",
+    "certification",
+    "certifications",
+    "academic credentials",
+    "education profile",
+    "academic details",
+    "academicdetails"
+  ],
+  "projects": [
+    "project",
+    "projects",
+    "project experience",
+    "technical projects",
+    "academic projects",
+    "project portfolio",
+    "portfolio",
+    "product builds",
+    "build log",
+    "selected build work",
+    "course projects",
+    "courseprojects"
+  ],
+  "awards": [
+    "achievements",
+    "accomplishments",
+    "honors",
+    "honours",
+    "milestones",
+    "recognition highlights"
+  ],
+  "interests": [
+    "hobbies",
+    "hobbies and interests",
+    "activities",
+    "beyond work",
+    "personal pursuits"
+  ],
+  "references": [
+    "reference",
+    "references",
+    "professional references"
+  ],
+  "languages": [
+    "language",
+    "languages",
+    "language proficiency"
+  ],
+  "certifications": [
+    "certificate",
+    "certificates",
+    "license",
+    "licenses",
+    "certifications and licenses"
+  ]
+}

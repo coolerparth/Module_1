@@ -1,0 +1,129 @@
+{
+  "personal_info": {
+    "name": "Dev Agarwal",
+    "email": "devagarwal2468@gmail.com",
+    "phone": "+91 8077328257",
+    "location": "Dehradun, Uttarakhand"
+  },
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/devagarwal2468"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/devagarwal2468"
+    }
+  ],
+  "skills": [
+    "C++",
+    "Java",
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "React",
+    "Streamlit",
+    "Node.js",
+    "MySQL",
+    "MongoDB",
+    "Tableau",
+    "Power BI",
+    "Generative AI",
+    "Machine Learning",
+    "Deep Learning",
+    "LLMs",
+    "Transformers",
+    "NLP",
+    "RAG",
+    "MCP",
+    "Arduino",
+    "ESP32/ESP8266",
+    "Raspberry Pi"
+  ],
+  "experience": [
+    {
+      "company": "Graphic Era Deemed University, Dehradun",
+      "title": "Research Intern — Under Dr. Jay R. Bhatnagar",
+      "date_range": {
+        "start": "Jul 2025",
+        "end": "Sep 2025"
+      }
+    },
+    {
+      "company": "Technology Business Incubator (TBI)",
+      "title": "Web Developer Intern",
+      "date_range": {
+        "start": "Nov 2025",
+        "end": null
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Graphic Era Deemed University, Dehradun",
+      "degree": "B.Tech",
+      "field_of_study": "Computer Science & Engineering",
+      "date_range": {
+        "start": "Aug 2022",
+        "end": "May 2026"
+      },
+      "gpa": "7.6 / 10"
+    },
+    {
+      "institution": "St. Mary Academy School, Saharanpur",
+      "degree": "Senior Secondary (CBSE)",
+      "field_of_study": "Class 12",
+      "date_range": {
+        "start": "Apr 2021",
+        "end": "Mar 2022"
+      },
+      "gpa": "87.2%"
+    },
+    {
+      "institution": "Delhi Public School, Saharanpur",
+      "degree": "Secondary (CBSE)",
+      "field_of_study": "Class 10",
+      "date_range": {
+        "start": "Apr 2019",
+        "end": "Mar 2020"
+      },
+      "gpa": "85.3%"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Electronics, Robotics and IoT Projects"
+    },
+    {
+      "name": "AI Trip Planner"
+    },
+    {
+      "name": "AI-Powered Context-Aware Digital Memory"
+    },
+    {
+      "name": "Crop AI Chatbot"
+    },
+    {
+      "name": "Speech-to-Text System (Custom Model Fine-Tuning)"
+    },
+    {
+      "name": "FigExtract – Intelligent PDF Figure Extraction Tool"
+    },
+    {
+      "name": "AI & NLP Recruitment Insights Dashboard"
+    },
+    {
+      "name": "Healthcare Diabetes Prediction App"
+    }
+  ],
+  "awards": [
+    "Awarded the 1-Month LeetCode Consistency Badge for solving coding problems consistently over 30 days.",
+    "Completed 6-week Personality Development through Self-Awareness program, certified by IIT Mandi professor.",
+    "Participated in Kaggle’s Backpack Playground Competition, achieving 50% accuracy."
+  ],
+  "interests": [
+    "Playing the flute (intermediate level), mridang, and badminton",
+    "Exploring emerging technologies: AWS Cloud, Artificial Intelligence (AI), Machine Learning (ML), and Generative AI"
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "sample_id": "sample_001",
+    "archetype": "single_column_fresher",
+    "metadata": "data/benchmark/templates/metadata/sample_001.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_001.truth.json"
+  },
+  {
+    "sample_id": "sample_002",
+    "archetype": "two_column_fresher",
+    "metadata": "data/benchmark/templates/metadata/sample_002.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_002.truth.json"
+  },
+  {
+    "sample_id": "sample_003",
+    "archetype": "single_column_midlevel",
+    "metadata": "data/benchmark/templates/metadata/sample_003.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_003.truth.json"
+  },
+  {
+    "sample_id": "sample_004",
+    "archetype": "two_column_senior",
+    "metadata": "data/benchmark/templates/metadata/sample_004.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_004.truth.json"
+  },
+  {
+    "sample_id": "sample_005",
+    "archetype": "academic_research",
+    "metadata": "data/benchmark/templates/metadata/sample_005.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_005.truth.json"
+  },
+  {
+    "sample_id": "sample_006",
+    "archetype": "design_heavy_sidebar",
+    "metadata": "data/benchmark/templates/metadata/sample_006.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_006.truth.json"
+  },
+  {
+    "sample_id": "sample_007",
+    "archetype": "table_heavy_skills",
+    "metadata": "data/benchmark/templates/metadata/sample_007.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_007.truth.json"
+  },
+  {
+    "sample_id": "sample_008",
+    "archetype": "project_heavy_engineering",
+    "metadata": "data/benchmark/templates/metadata/sample_008.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_008.truth.json"
+  },
+  {
+    "sample_id": "sample_009",
+    "archetype": "internship_resume",
+    "metadata": "data/benchmark/templates/metadata/sample_009.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_009.truth.json"
+  },
+  {
+    "sample_id": "sample_010",
+    "archetype": "multi_page_executive",
+    "metadata": "data/benchmark/templates/metadata/sample_010.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_010.truth.json"
+  },
+  {
+    "sample_id": "sample_011",
+    "archetype": "single_column_backend",
+    "metadata": "data/benchmark/templates/metadata/sample_011.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_011.truth.json"
+  },
+  {
+    "sample_id": "sample_012",
+    "archetype": "single_column_data_science",
+    "metadata": "data/benchmark/templates/metadata/sample_012.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_012.truth.json"
+  },
+  {
+    "sample_id": "sample_013",
+    "archetype": "single_column_frontend",
+    "metadata": "data/benchmark/templates/metadata/sample_013.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_013.truth.json"
+  },
+  {
+    "sample_id": "sample_014",
+    "archetype": "single_column_devops",
+    "metadata": "data/benchmark/templates/metadata/sample_014.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_014.truth.json"
+  },
+  {
+    "sample_id": "sample_015",
+    "archetype": "single_column_embedded",
+    "metadata": "data/benchmark/templates/metadata/sample_015.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_015.truth.json"
+  },
+  {
+    "sample_id": "sample_016",
+    "archetype": "two_column_backend",
+    "metadata": "data/benchmark/templates/metadata/sample_016.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_016.truth.json"
+  },
+  {
+    "sample_id": "sample_017",
+    "archetype": "two_column_data_science",
+    "metadata": "data/benchmark/templates/metadata/sample_017.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_017.truth.json"
+  },
+  {
+    "sample_id": "sample_018",
+    "archetype": "two_column_frontend",
+    "metadata": "data/benchmark/templates/metadata/sample_018.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_018.truth.json"
+  },
+  {
+    "sample_id": "sample_019",
+    "archetype": "two_column_design_sidebar",
+    "metadata": "data/benchmark/templates/metadata/sample_019.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_019.truth.json"
+  },
+  {
+    "sample_id": "sample_020",
+    "archetype": "two_column_table_heavy",
+    "metadata": "data/benchmark/templates/metadata/sample_020.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_020.truth.json"
+  },
+  {
+    "sample_id": "sample_021",
+    "archetype": "academic_publications",
+    "metadata": "data/benchmark/templates/metadata/sample_021.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_021.truth.json"
+  },
+  {
+    "sample_id": "sample_022",
+    "archetype": "research_multpage",
+    "metadata": "data/benchmark/templates/metadata/sample_022.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_022.truth.json"
+  },
+  {
+    "sample_id": "sample_023",
+    "archetype": "ocr_scanned_resume",
+    "metadata": "data/benchmark/templates/metadata/sample_023.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_023.truth.json"
+  },
+  {
+    "sample_id": "sample_024",
+    "archetype": "messy_export_resume",
+    "metadata": "data/benchmark/templates/metadata/sample_024.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_024.truth.json"
+  },
+  {
+    "sample_id": "sample_025",
+    "archetype": "executive_multpage",
+    "metadata": "data/benchmark/templates/metadata/sample_025.json",
+    "truth": "data/benchmark/templates/ground_truth/sample_025.truth.json"
+  }
+]

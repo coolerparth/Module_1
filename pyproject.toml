@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arie-resume-parser"
+version = "3.1.0"
+description = "Deterministic resume parsing and validation pipeline"
+readme = "docs/benchmarking.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pdfplumber>=0.10.3",
+  "fastapi>=0.110.0",
+  "uvicorn[standard]>=0.29.0",
+  "pydantic>=2.6.0",
+  "python-multipart>=0.0.9",
+  "Pillow>=10.0.0",
+  "numpy>=1.26.0",
+  "spacy>=3.8.0",
+  "celery[redis]>=5.3.0",
+  "redis>=5.0.0",
+  "transformers>=4.40.0",
+  "torch>=2.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "pytest-asyncio>=0.23.0",
+  "httpx>=0.27.0",
+  "black>=24.0.0",
+  "ruff>=0.4.0",
+]
+docling = [
+  "docling>=2.5.0",
+  "paddleocr>=2.7.3",
+  "paddlepaddle>=2.6.1",
+  "pdf2image>=1.17.0",
+]
+
+[project.scripts]
+aria = "resume_segmentation.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+resume_segmentation = ["knowledge/*.yml"]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

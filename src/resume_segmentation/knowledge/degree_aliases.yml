@@ -1,0 +1,79 @@
+{
+  "Bachelor": [
+    "bachelor",
+    "bachelor degree",
+    "bachelors",
+    "bachelor's degree",
+    "bachelor of arts",
+    "bachelor of science",
+    "bachelor of engineering",
+    "bachelor of technology",
+    "bachelor of commerce",
+    "bachelor of education",
+    "bachelor of business administration",
+    "bachelor of computer applications",
+    "b.a",
+    "b.sc",
+    "b.s",
+    "b.e",
+    "b.eng",
+    "b.tech",
+    "btech",
+    "bca",
+    "bba"
+  ],
+  "Master": [
+    "master",
+    "master degree",
+    "masters",
+    "master's degree",
+    "master of science",
+    "master of engineering",
+    "master of technology",
+    "master of arts",
+    "master of commerce",
+    "master of business administration",
+    "master of computer applications",
+    "m.a",
+    "m.sc",
+    "m.s",
+    "m.e",
+    "m.eng",
+    "m.tech",
+    "mtech",
+    "mca",
+    "mba",
+    "mphil"
+  ],
+  "Doctorate": [
+    "doctor",
+    "doctorate",
+    "doctoral",
+    "doctor of philosophy",
+    "phd",
+    "ph.d"
+  ],
+  "Associate": [
+    "associate",
+    "associate degree"
+  ],
+  "Diploma": [
+    "diploma",
+    "post graduate diploma",
+    "pg diploma",
+    "advanced diploma"
+  ],
+  "School": [
+    "high school",
+    "secondary",
+    "intermediate",
+    "senior secondary",
+    "higher secondary",
+    "12th",
+    "10th",
+    "ssc",
+    "hsc",
+    "cbse",
+    "icse"
+  ]
+}
